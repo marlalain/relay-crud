@@ -5,7 +5,7 @@ const DeadlineInput: NextComponentType = () => {
 	return <Center bg='blackAlpha.50' pb={10}>
 		<Flex mt={12} w='60%' h='20%'>
 			<Box flexGrow={1}>
-				<Input autoFocus={true} bg='white' size='lg' placeholder='Type a deadline title...'/>
+				<Input autoFocus bg='white' size='lg' placeholder='Type a deadline title...'/>
 			</Box>
 
 			<Box w={2}/>

@@ -17,31 +17,36 @@ const DeadlineTable: NextComponentType = () => {
 				</Thead>
 				<Tbody>
 					<DeadlineRow
-						title='sample deadline name'
+						title='sample deadline title'
+						description='sample description'
 						colorScheme='green'
 						status='done'
 						startDate='30/07/2022'
 						finishDate='01/07/2022'/>
 					<DeadlineRow
-						title='sample deadline name'
+						title='sample deadline title'
+						description='sample description'
 						colorScheme='red'
 						status='late'
 						startDate='30/07/2022'
 						finishDate='01/07/2022'/>
 					<DeadlineRow
-						title='sample deadline name'
+						title='sample deadline title'
+						description='sample description'
 						colorScheme='green'
 						status='done'
 						startDate='30/07/2022'
 						finishDate='01/07/2022'/>
 					<DeadlineRow
-						title='sample deadline name'
+						title='sample deadline title'
+						description='sample description'
 						colorScheme='purple'
 						status='new'
 						startDate='30/07/2022'
 						finishDate='01/07/2022'/>
 					<DeadlineRow
-						title='sample deadline name'
+						title='sample deadline title'
+						description='sample description'
 						colorScheme='green'
 						status='done'
 						startDate='30/07/2022'
