@@ -1,5 +1,5 @@
 import {NextComponentType} from "next";
-import {Center, Table, TableCaption, TableContainer, Tbody, Td, Thead, Tr} from "@chakra-ui/react";
+import {Center, Table, TableCaption, TableContainer, Tbody, Td, Text, Thead, Tr} from "@chakra-ui/react";
 import DeadlineRow from "./deadline-row";
 
 const DeadlineTable: NextComponentType = () => {
@@ -9,10 +9,18 @@ const DeadlineTable: NextComponentType = () => {
 				<TableCaption>deadlines appear here</TableCaption>
 				<Thead>
 					<Tr>
-						<Td>title</Td>
-						<Td>status</Td>
-						<Td>started</Td>
-						<Td>completed</Td>
+						<Td>
+							<Text align='center'>title</Text>
+						</Td>
+						<Td>
+							<Text align='center'>status</Text>
+						</Td>
+						<Td>
+							<Text align='center'>started</Text>
+						</Td>
+						<Td>
+							<Text align='center'>completed</Text>
+						</Td>
 					</Tr>
 				</Thead>
 				<Tbody>
