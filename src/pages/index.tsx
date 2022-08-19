@@ -2,6 +2,7 @@ import type {NextPage} from "next";
 import Header from "./header";
 import Navbar from "../components/navbar";
 import DeadlineInput from "../components/deadline/deadline-input";
+import DeadlineTable from "../components/deadline/deadline-table";
 
 const Home: NextPage = () => {
 	return (
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
 			<Header/>
 			<Navbar/>
 			<DeadlineInput/>
+			<DeadlineTable/>
 		</>
 	);
 };
