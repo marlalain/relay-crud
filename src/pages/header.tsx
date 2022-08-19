@@ -4,7 +4,7 @@ import Head from "next/head";
 const Header: NextPage = () => {
 	return (
 		<Head>
-			<title>Relay CRUD</title>
+			<title>relay crud</title>
 			<link rel="icon" href="/favicon.ico"/>
 		</Head>
 	);
