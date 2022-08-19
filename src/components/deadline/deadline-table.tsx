@@ -36,8 +36,7 @@ const DeadlineTable: NextComponentType = () => {
 						description='sample description'
 						colorScheme='red'
 						status='late'
-						startDate='30/07/2022'
-						finishDate='01/07/2022'/>
+						startDate='30/07/2022'/>
 					<DeadlineRow
 						title='sample deadline title'
 						description='sample description'

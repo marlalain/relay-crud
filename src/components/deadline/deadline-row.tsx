@@ -1,4 +1,4 @@
-import {Badge, Td, Tooltip, Tr} from "@chakra-ui/react";
+import {Badge, Td, Text, Tooltip, Tr} from "@chakra-ui/react";
 import {FunctionComponent} from "react";
 
 type DeadlineRowProps = {
@@ -7,7 +7,7 @@ type DeadlineRowProps = {
 	colorScheme: string | 'green' | 'red' | 'purple';
 	status: string;
 	startDate: string;
-	finishDate: string;
+	finishDate?: string;
 }
 
 const DeadlineRow: FunctionComponent<DeadlineRowProps> = (
@@ -29,7 +29,7 @@ const DeadlineRow: FunctionComponent<DeadlineRowProps> = (
 			<Badge colorScheme={colorScheme}>{status}</Badge>
 		</Td>
 		<Td>{startDate}</Td>
-		<Td>{finishDate}</Td>
+		<Td>{finishDate || <Text align='center'>-</Text>}</Td>
 	</Tr>
 }
 
